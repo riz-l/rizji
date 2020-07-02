@@ -3,8 +3,7 @@ import React from "react";
 import "./index.css";
 
 // Import: Components
-import HomePage from "./components/HomePage.component";
-
+import HomePage from "./components/pages/HomePage/HomePage.component";
 function App() {
   return (
     <div>
