@@ -9,6 +9,7 @@ import "./index.css";
 import HomePage from "./components/pages/HomePage/HomePage.component";
 import ShopPage from "./components/pages/ShopPage/ShopPage.component";
 import Header from "./components/UI/Header/Header.component";
+import SignInSignUpPage from "./components/pages/SignInSignUpPage/SignInSignUpPage.component";
 
 // Component: App
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/shop" component={ShopPage} />
+        <Route path="/sign-in" component={SignInSignUpPage} />
       </Switch>
     </div>
   );
