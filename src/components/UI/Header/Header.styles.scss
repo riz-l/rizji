@@ -1,0 +1,27 @@
+/*#region UI: Header */
+.Header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  width: 100%;
+
+  .Header__logo-container {
+    height: 100%;
+    padding: 25px;
+    width: 70px;
+  }
+
+  .Header__options {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    width: 50%;
+  }
+
+  .Header__option {
+    padding: 10px 15px;
+  }
+}
+/*#endregion /UI: Header */

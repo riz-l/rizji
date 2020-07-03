@@ -19,3 +19,10 @@ code {
     monospace;
 }
 /*#endregion /Default: React */
+
+/*#region Default: Native */
+a {
+  color: black;
+  text-decoration: none;
+}
+/*#endregion /Default: Native */
