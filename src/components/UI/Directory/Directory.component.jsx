@@ -19,7 +19,7 @@ class Directory extends Component {
           title: "keyboards",
           imageUrl:
             "https://cdn.shopify.com/s/files/1/0046/9539/2305/products/Red_Alphas_Iron_165_2019-Nov-15_05-24-48AM-000_CustomizedView37336570777_800x.png?v=1574309042",
-          linkUrl: "keyboardsPage",
+          linkUrl: "keyboards-page",
         },
         {
           id: 2,
