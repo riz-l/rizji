@@ -1,0 +1,17 @@
+/*#region UI: CollectionPreview */
+.CollectionPreview {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  .CollectionPreview__title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .CollectionPreview__preview {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+/*#endregion /UI: CollectionPreview */

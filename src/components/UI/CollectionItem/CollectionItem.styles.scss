@@ -1,0 +1,34 @@
+/*#region UI: CollectionItem */
+.CollectionItem {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 22%;
+
+  .CollectionItem__image {
+    background-position: center;
+    background-size: cover;
+    height: 95%;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .CollectionItem__footer {
+    display: flex;
+    font-size: 18px;
+    height: 5%;
+    justify-content: space-between;
+    width: 100%;
+
+    .CollectionItem__name {
+      margin-bottom: 15px;
+      width: 90%;
+    }
+
+    .CollectionItem__price {
+      width: 10%;
+    }
+  }
+}
+/*#endregion /UI: CollectionItem */

@@ -7,15 +7,7 @@ import "./index.css";
 
 // Import: Components
 import HomePage from "./components/pages/HomePage/HomePage.component";
-
-// Component: KeyboardsPage
-function KeyboardsPage() {
-  return (
-    <div>
-      <h1>Keyboards Page</h1>
-    </div>
-  );
-}
+import ShopPage from "./components/pages/ShopPage/ShopPage.component";
 
 // Component: App
 function App() {
@@ -23,7 +15,7 @@ function App() {
     <div>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/keyboardsPage" component={KeyboardsPage} />
+        <Route path="/shop" component={ShopPage} />
       </Switch>
     </div>
   );
