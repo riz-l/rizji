@@ -7,44 +7,45 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
+        name: "Drop CTRL High-Profile",
+        imageUrl:
+          "https://massdrop-s3.imgix.net/product-images/drop-ctrl-high-profile-mechanical-keyboard/FP/WXdcy0nTySE7LXZtV96T_1080x1080_MD-92936_01.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 250,
+      },
+      {
+        id: 2,
+        name: "Keydous NJ68 Bluetooth Hotswap RGB",
+        imageUrl:
+          "https://massdrop-s3.imgix.net/product-images/keydous-nj68-bluetooth-hot-swappable-rgb-mechanical-keyboard/FP/KxUTM4ZSTeHCgwIwuJfK_1080x1080_MD-93817_01.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 85,
+      },
+      {
+        id: 3,
+        name: "Drop ALT",
+        imageUrl:
+          "https://massdrop-s3.imgix.net/product-images/drop-alt-mechanical-keyboard/FP/VGoZaZjdRlWhmIusEJjA_0899-pc.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 180,
+      },
+      {
+        id: 4,
+        name: "Womier K66 V2 Hotswap Acrylic",
+        imageUrl:
+          "https://massdrop-s3.imgix.net/product-images/womier-stacked-acrylic-rgb-mechanical-keyboard/FP/YdlZrdh8TP6dHrrx32mY_1080x1080_MD-93147_01.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 62,
+      },
+      {
+        id: 5,
+        name: "Drop Carina Kit",
+        imageUrl:
+          "https://massdrop-s3.imgix.net/product-images/drop-carina-mechanical-keyboard-kit/FP/MUrlnmyxQAW378LABg0B_PC2.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 100,
+      },
+      {
+        id: 6,
         name: "Ducky One 2 Mini (Black)",
         imageUrl:
           "https://mechanicalkeyboards.com/shop/images/products/large_4322_large_DKON1861ST-USPDAZT1_8.png",
         price: 99.99,
-      },
-      {
-        id: 2,
-        name: "Ducky One 2 Mini (White)",
-        imageUrl: "https://img.ebyrcdn.net/949000-948122-800.jpg",
-        price: 105.99,
-      },
-      {
-        id: 3,
-        name: "M65-b",
-        imageUrl:
-          "https://images.squarespace-cdn.com/content/v1/563c788ae4b099120ae219e2/1572022399164-MW8VCJOVK1EWYI9LD8V9/ke17ZwdGBToddI8pDm48kAgzYejSbWGRoJP4yk7IdNQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dtCOkMDEaPiGoIoGazr_ji7tWlVp5kgqCHrK9bIsxYYSbSexTd1-frD7527z4SM9QQ/RW-M65-B-WIDE-HERO-A.1718.JPG?format=1000w",
-        price: 750,
-      },
-      {
-        id: 4,
-        name: "KBD67V2 MKII Ink Black Polycarbonate DIY Kit",
-        imageUrl:
-          "https://cdn.shopify.com/s/files/1/1473/3902/products/1_c6e8f145-4f4e-4cb8-b1d8-e9d14a632d12_750x.jpg?v=1593339777",
-        price: 299,
-      },
-      {
-        id: 5,
-        name: "DZ65RGB Customize Keyboard DIY Kit",
-        imageUrl:
-          "https://cdn.shopify.com/s/files/1/1473/3902/products/15_f01acc4b-50b6-4810-9f83-a2ed9853d68e_750x.jpg?v=1584436928",
-        price: 85,
-      },
-      {
-        id: 6,
-        name: "Drop CTRL",
-        imageUrl:
-          "https://massdrop-s3.imgix.net/product-images/massdrop-ctrl-mechanical-keyboard/FP/j3vcDu6TTSCULWMjT9MR_0821.jpg?auto=format&fm=jpg&fit=fill&w=670&h=375&bg=f0f0f0&dpr=2&q=35",
-        price: 200,
       },
       {
         id: 7,
@@ -55,17 +56,17 @@ const SHOP_DATA = [
       },
       {
         id: 8,
-        name: "ObinsLab Anne Pro 2",
+        name: "Everglide SK87 Hotswap RGB Bluetooth TKL Kit",
         imageUrl:
-          "https://massdrop-s3.imgix.net/product-images/obins-anne-pro-2-60-bluetooth-mechanical-keyboard/FP/bJjtQHewRcuzqWOOJAF6_MD-82001_654.jpg?auto=format&fm=jpg&fit=fill&w=670&h=375&bg=f0f0f0&dpr=2&q=35",
-        price: 100,
+          "https://massdrop-s3.imgix.net/product-images/everglide-sk87-rgb-hotswap-bluetooth-tkl-keyboard/FP/DWfkvfaxTvyYuVvWIT6E_PC.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 105,
       },
       {
         id: 9,
-        name: "Drop + OLKB Preonic Keyboard MX Kit V3",
+        name: "Mistel MD770 RGB Doubleshot PBT Split",
         imageUrl:
-          "https://massdrop-s3.imgix.net/product-images/preonic-mechanical-keyboard/FP/T9uyzruNRViMmImqcsuL_AI7B9742%20copy.jpg?auto=format&fm=jpg&fit=fill&w=670&h=375&bg=f0f0f0&dpr=2&q=35",
-        price: 110,
+          "https://massdrop-s3.imgix.net/product-images/mistel-md770-rgb-tkl-doubleshot-pbt-split-keyboard/FP/MuZmOdUNSXOobfh7BtZG_1080x1080_MD-95150_01.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 95,
       },
     ],
   },
@@ -134,8 +135,8 @@ const SHOP_DATA = [
   },
   {
     id: 3,
-    title: "Accessories",
-    routeName: "accessories",
+    title: "Cables",
+    routeName: "cables",
     items: [
       {
         id: 1,
@@ -181,51 +182,51 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: "GMK Metropolis",
+        name: "Massdrop X Mito SA Pulse TKL Keycap Set",
         imageUrl:
-          "https://cdn.shopify.com/s/files/1/3099/8088/products/render_2_59d608d5-6143-440c-af45-3a26f1284d1f_720x.jpg?v=1574443320",
-        price: 120,
+          "https://massdrop-s3.imgix.net/product-images/massdrop-x-mito-sa-pulse-tkl-keycap-set/FP/4gYrSw2R65pKjYQw8cfQ_mito_Sa_Pulse_TKL_K_S.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 110,
       },
       {
         id: 2,
-        name: "GMK Vaporwave",
+        name: "Drop + Zambumon MT3 Serika Custom Keycap Set",
         imageUrl:
-          "https://cdn.shopify.com/s/files/1/3099/8088/products/Vaporwave_8a84b6b8-f06c-452a-a055-c44507824340_720x.jpg?v=1584544139",
-        price: 160,
+          "https://massdrop-s3.imgix.net/product-images/drop-zambumon-mt3-serika-custom-keycap-set/FP/hFTvUIfROijcVpImm7El_ZAMBUMON_MT3_SERIKA_05.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 110,
       },
       {
         id: 3,
-        name: "GMK Pulse",
+        name: "Drop DSA Astrolokeys Keycap Set",
         imageUrl:
-          "https://cdn.shopify.com/s/files/1/3099/8088/products/board_720x.jpg?v=1578596697",
-        price: 185,
+          "https://massdrop-s3.imgix.net/product-images/drop-dsa-astrolokeys-by-sailorhg-and-cassidoo/FP/bLgT7YGeRMGvivRpQ5WL_dsa_astrolokeys_keyboard_no165powder_persp_front.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 95,
       },
       {
         id: 4,
-        name: "SA Leviathan",
+        name: "Drop + MATT30 MT3 Susuwatari Custom Keycap Set",
         imageUrl:
-          "https://cdn.shopify.com/s/files/1/3099/8088/products/Base_Kit_ba1af7f6-e0e4-491a-8b8b-6d649b898a1b_720x.jpg?v=1574788475",
-        price: 55,
+          "https://massdrop-s3.imgix.net/product-images/massdrop-x-matteo-mt3-susuwatari-custom-keycap-set/FP/f3vEyS61Qty7C97XCAqV_01_DROP_BANNER_mt3_susuwatari_verne_persp_front.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 120,
       },
       {
         id: 5,
-        name: "GMK Oblivion",
+        name: "Drop + Redsuns GMK Red Samurai Custom Keycap Set",
         imageUrl:
-          "https://cdn.shopify.com/s/files/1/3099/8088/products/GMK_Oblivion_720x.png?v=1580839015",
-        price: 170,
+          "https://massdrop-s3.imgix.net/product-images/drop-redsuns-gmk-red-samurai-keycap-set/FP/vxjtJpHDSPCHwOCmbkhC_06.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 140,
       },
       {
         id: 6,
-        name: "GMK Taro R2",
+        name: "Tai-Hao Exotic Layout PBT Doubleshot Keycap Set",
         imageUrl:
-          "https://cdn.shopify.com/s/files/1/3099/8088/products/Base_908b00f0-4035-4ef9-8189-92c3aed62f28_720x.png?v=1584369194",
-        price: 135,
+          "https://massdrop-s3.imgix.net/product-images/tai-hao-exotic-layout-pbt-doubleshot-keycap-set/FP/2vxbRMAnSXOfJYHGQoNK_1500x1000_MD-95148_04.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 70,
       },
       {
         id: 7,
-        name: "Drop + RedSuns GMK Red Samurai",
+        name: "Drop + Mito GMK Hennessey Custom Keycap Set",
         imageUrl:
-          "https://massdrop-s3.imgix.net/product-images/drop-redsuns-gmk-red-samurai-keycap-set/FP/MLkINFOCQFy8z4rjAkDI_PC2.png?auto=format&fm=jpg&fit=crop&w=422&bg=f0f0f0&dpr=2&q=35",
+          "https://massdrop-s3.imgix.net/product-images/drop-mito-gmk-hennessey-custom-keycap-set/FP/gPdT3EKETG6ylVZRpBfK_s2w7erBOQ3uyZaxXyf9w_j02.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
         price: 140,
       },
     ],
