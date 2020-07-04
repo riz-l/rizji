@@ -8,6 +8,9 @@ import "./SignIn.styles.scss";
 import FormInput from "../FormInput/FormInput.component";
 import CustomButton from "../CustomButton/CustomButton.component";
 
+// Import: Google OAuth SignIn
+import { signInWithGoogle } from "../../../firebase/firebase.utils";
+
 // UI: SignIn
 class SignIn extends Component {
   constructor(props) {
@@ -57,7 +60,12 @@ class SignIn extends Component {
             label="Password"
             required
           />
-          <CustomButton type="Submit">Sign In</CustomButton>
+          <div className="SignIn__buttons">
+            <CustomButton type="Submit">Sign In</CustomButton>
+            <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
+              Sign In with Google
+            </CustomButton>
+          </div>
         </form>
       </div>
     );

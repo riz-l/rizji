@@ -2,10 +2,15 @@
 .SignIn {
   display: flex;
   flex-direction: column;
-  width: 30vw;
+  width: 28vw;
 
   .SignIn__title {
     margin: 10px 0;
+  }
+
+  .SignIn__buttons {
+    display: flex;
+    justify-content: space-between;
   }
 }
 /*#endregion /UI: SignIn */

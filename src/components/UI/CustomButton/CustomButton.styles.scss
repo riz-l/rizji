@@ -20,5 +20,15 @@
     border: 1px solid black;
     color: black;
   }
+
+  &.GoogleSignIn {
+    background-color: #4285f4;
+    color: white;
+
+    &:hover {
+      background-color: #357ae8;
+      border: none;
+    }
+  }
 }
 /*#endregion /UI: CustomButton */
