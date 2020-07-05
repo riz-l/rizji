@@ -12,7 +12,7 @@ import Header from "./components/UI/Header/Header.component";
 import SignInSignUpPage from "./components/pages/SignInSignUpPage/SignInSignUpPage.component";
 
 // Import: Firebase Authentication
-import { auth } from "./firebase/firebase.utils";
+import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 
 // Component: App
 class App extends Component {
@@ -27,10 +27,8 @@ class App extends Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    this.unsubscribeFromAuth = auth.onAuthStateChanged((user) => {
-      this.setState({ currentUser: user });
-
-      console.log(user);
+    this.unsubscribeFromAuth = auth.onAuthStateChanged(async (user) => {
+      createUserProfileDocument(user);
     });
   }
 
