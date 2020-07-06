@@ -9,7 +9,7 @@ import FormInput from "../FormInput/FormInput.component";
 import CustomButton from "../CustomButton/CustomButton.component";
 
 // Import: Google OAuth SignIn
-import { signInWithGoogle } from "../../../firebase/firebase.utils";
+import { auth, signInWithGoogle } from "../../../firebase/firebase.utils";
 
 // UI: SignIn
 class SignIn extends Component {
@@ -24,10 +24,17 @@ class SignIn extends Component {
 
   // Prevents default form activity (refresh on submit)
   // = Resets the email and password states to empty strings
-  handleSubmit = (event) => {
+  handleSubmit = async (event) => {
     event.preventDefault();
 
-    this.setState({ email: "", password: "" });
+    const { email, password } = this.state;
+
+    try {
+      await auth.signInWithEmailAndPassword(email, password);
+      this.setState({ email: "", password: "" });
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   // Dynamically sets state so the value of name can be saved to the current state
