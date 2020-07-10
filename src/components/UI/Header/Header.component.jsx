@@ -1,6 +1,7 @@
 // Import: Dependencies
 import React from "react";
 import { Link } from "react-router-dom";
+import { connect } from "react-redux";
 
 // Import: Styling
 import "./Header.styles.scss";
@@ -39,5 +40,10 @@ function Header({ currentUser }) {
   );
 }
 
+// Map State to Props
+const mapStateToProps = (state) => ({
+  currentUser: state.user.currentUser,
+});
+
 // Export: Header
-export default Header;
+export default connect(mapStateToProps)(Header);

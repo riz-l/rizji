@@ -2,6 +2,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
+import { Provider } from "react-redux";
+
+// Import: Service Worker
 import * as serviceWorker from "./serviceWorker";
 
 // Import: Styling
@@ -10,11 +13,16 @@ import "./index.css";
 // Import: Components
 import App from "./App";
 
+// Import: store
+import store from "./redux/store";
+
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>,
   document.getElementById("root")
 );
