@@ -1,6 +1,6 @@
 // Import: Dependencies
 import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 
 // Import: Styling
@@ -51,12 +51,26 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={ShopPage} />
-          <Route path="/sign-in" component={SignInSignUpPage} />
+          <Route
+            exact
+            path="/sign-in"
+            render={() =>
+              this.props.currentUser ? (
+                <Redirect to="/" />
+              ) : (
+                <SignInSignUpPage />
+              )
+            }
+          />
         </Switch>
       </div>
     );
   }
 }
+
+const mapStateToProps = ({ user }) => ({
+  currentUser: user.currentUser,
+});
 
 // Map Dispatch to Props
 const mapDispatchToProps = (dispatch) => ({
@@ -64,4 +78,4 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 // Export: App
-export default connect(null, mapDispatchToProps)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
