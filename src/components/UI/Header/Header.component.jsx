@@ -12,6 +12,9 @@ import { ReactComponent as Logo } from "../../../assets/images/crown.svg";
 // Import: Firebase Authentication
 import { auth } from "../../../firebase/firebase.utils";
 
+// Import: Components
+import CartIcon from "../CartIcon/CartIcon.component";
+
 // UI: Header
 function Header({ currentUser }) {
   return (
@@ -35,6 +38,7 @@ function Header({ currentUser }) {
             SIGN IN
           </Link>
         )}
+        <CartIcon />
       </div>
     </div>
   );
