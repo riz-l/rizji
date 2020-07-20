@@ -11,7 +11,7 @@ import CustomButton from "../CustomButton/CustomButton.component";
 
 // UI: CollectionItem
 function CollectionItem({ item, addItem }) {
-  const { id, name, price, imageUrl } = item;
+  const { name, price, imageUrl } = item;
   return (
     <div className="CollectionItem">
       <div
