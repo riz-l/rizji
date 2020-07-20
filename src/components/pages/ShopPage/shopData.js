@@ -84,9 +84,9 @@ const SHOP_DATA = [
       },
       {
         id: 2,
-        name: "Hot Keys Project Specter Crosseyes",
+        name: "Gen.S Monitor Screen Resin",
         imageUrl:
-          "https://massdrop-s3.imgix.net/product-images/hot-keys-project-specter-crosseyes-artisan-keycap/FP/JKlX465TFqTbQNMCSC8e_DSC07548_2.jpg?auto=format&fm=jpg&fit=fill&w=670&h=375&bg=f0f0f0&dpr=2&q=35",
+          "https://massdrop-s3.imgix.net/product-images/gen-s-monitor-screen-resin-artisan-keycap/FP/F3N4IU5vSNy6pJJfbilj_AI7B6257-copy-pc-small.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
         price: 35,
       },
       {
@@ -238,17 +238,17 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: "Gateron Robin Custom",
+        name: "Everglide Crystal Violet",
         imageUrl:
-          "https://massdrop-s3.imgix.net/product-images/gateron-robin-custom-mechanical-keyboard-switch/FP/ECgf3p9xQf2w4jjZC6bb_PC.png?auto=format&fm=jpg&fit=crop&w=422&bg=f0f0f0&dpr=2&q=35",
+          "https://massdrop-s3.imgix.net/product-images/everglide-crystal-violet-custom-mechanical-switches/FP/Ny4f7EIBTdWXR5X5W7RR_1500x1000_MD-91990_02.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
         price: 7,
       },
       {
         id: 2,
-        name: "Drop + Invyr Holy Panda",
+        name: "Domikey x Kailh Cyberpunk Tactile",
         imageUrl:
-          "https://massdrop-s3.imgix.net/product-images/massdrop-x-invyr-holy-panda-mechanical-switches/FP/DwYWcr96TM2KkNmnQAFe_PC.png?auto=format&fm=jpg&fit=fill&w=670&h=375&bg=f0f0f0&dpr=2&q=35",
-        price: 13,
+          "https://massdrop-s3.imgix.net/product-images/domikey-x-kailh-cyberpunk-tactile-mechanical-switch/FP/xeghPOSea69TVVS9rvTA_1080x1080_MD-93207_03.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 11,
       },
       {
         id: 3,
