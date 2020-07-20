@@ -31,11 +31,11 @@ function Header({ currentUser, hidden }) {
           CONTACT
         </Link>
         {currentUser ? (
-          <div className="option" onClick={() => auth.signOut()}>
+          <div className="Header__option" onClick={() => auth.signOut()}>
             SIGN OUT
           </div>
         ) : (
-          <Link className="option" to="/sign-in">
+          <Link className="Header__option" to="/sign-in">
             SIGN IN
           </Link>
         )}

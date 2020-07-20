@@ -1,10 +1,14 @@
 /*#region UI: Header */
 .Header {
+  background: white;
   display: flex;
   height: 70px;
   justify-content: space-between;
   margin-bottom: 25px;
+  position: sticky;
   width: 100%;
+  top: 0;
+  z-index: 999;
 
   .Header__logo-container {
     height: 100%;

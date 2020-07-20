@@ -12,8 +12,12 @@ import SignUp from "../../UI/SignUp/SignUp.component";
 function SignInSignUpPage() {
   return (
     <div className="SignInSignUpPage">
-      <SignIn />
-      <SignUp />
+      <div className="SignInSignUpPage__container">
+        <SignIn />
+      </div>
+      <div className="SignInSignUpPage__container">
+        <SignUp />
+      </div>
     </div>
   );
 }
