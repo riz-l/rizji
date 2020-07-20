@@ -1,0 +1,26 @@
+/*#region UI: CartDropdown */
+.CartDropdown {
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 80px;
+  width: 240px;
+  z-index: 5;
+
+  .CartDropdown__cart-items {
+    display: flwx;
+    flex-direction: column;
+    height: 240px;
+    overflow: scroll;
+  }
+
+  button {
+    margin-top: auto;
+  }
+}
+/*#endregion /UI: CartDropdown */

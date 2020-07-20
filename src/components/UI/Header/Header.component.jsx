@@ -14,9 +14,10 @@ import { auth } from "../../../firebase/firebase.utils";
 
 // Import: Components
 import CartIcon from "../CartIcon/CartIcon.component";
+import CartDropdown from "../CartDropdown/CartDropdown.component";
 
 // UI: Header
-function Header({ currentUser }) {
+function Header({ currentUser, hidden }) {
   return (
     <div className="Header">
       <Link className="Header__logo-container" to="/">
@@ -40,13 +41,15 @@ function Header({ currentUser }) {
         )}
         <CartIcon />
       </div>
+      {hidden ? null : <CartDropdown />}
     </div>
   );
 }
 
 // Map State to Props
-const mapStateToProps = (state) => ({
-  currentUser: state.user.currentUser,
+const mapStateToProps = ({ user: { currentUser }, cart: { hidden } }) => ({
+  currentUser,
+  hidden,
 });
 
 // Export: Header
