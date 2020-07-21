@@ -1,0 +1,36 @@
+/*#region UI: CheckoutItem */
+.CheckoutItem {
+  align-items: center;
+  border-bottom: 1px solid darkgrey;
+  display: flex;
+  font-size: 20px;
+  min-height: 100px;
+  padding: 15px 0;
+  width: 100%;
+
+  .CheckoutItem__image-container {
+    padding-right: 15px;
+    width: 23%;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .CheckoutItem__name,
+  .CheckoutItem__quantity,
+  .CheckoutItem__price {
+    width: 23%;
+  }
+
+  .CheckoutItem__quantity {
+    padding-left: 20px;
+  }
+
+  .CheckoutItem__remove-button {
+    cursor: pointer;
+    padding-left: 12px;
+  }
+}
+/*#endregion /UI: CheckoutItem */
