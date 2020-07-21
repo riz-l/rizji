@@ -25,7 +25,16 @@
   }
 
   .CheckoutItem__quantity {
-    padding-left: 20px;
+    display: flex;
+    align-items: center;
+
+    .CheckoutItem__quantity-arrow {
+      cursor: pointer;
+    }
+
+    .CheckoutItem__quantity-value {
+      margin: 0 10px;
+    }
   }
 
   .CheckoutItem__remove-button {
