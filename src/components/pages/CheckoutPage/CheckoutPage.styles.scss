@@ -1,5 +1,33 @@
 /*#region Page: CheckoutPage */
 .CheckoutPage {
-  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto 0;
+  min-height: 90vh;
+  width: 55%;
+
+  .CheckoutPage__header {
+    border-bottom: 1px solid darkgrey;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    width: 100%;
+
+    .CheckoutPage__header-block {
+      text-transform: capitalize;
+      width: 23%;
+
+      &:last-child {
+        width: 8%;
+      }
+    }
+  }
+
+  .CheckoutPage__total {
+    font-size: 36px;
+    margin-left: auto;
+    margin-top: 30px;
+  }
 }
 /*#endregion /Page: CheckoutPage */
