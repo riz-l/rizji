@@ -18,6 +18,13 @@
     height: 300px;
     overflow-y: auto;
     overflow-x: hidden;
+
+    .CartDropdown__empty-message {
+      display: grid;
+      font-size: 20px;
+      height: 100%;
+      place-items: center;
+    }
   }
 
   button {

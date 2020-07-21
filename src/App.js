@@ -12,6 +12,7 @@ import HomePage from "./components/pages/HomePage/HomePage.component";
 import ShopPage from "./components/pages/ShopPage/ShopPage.component";
 import Header from "./components/UI/Header/Header.component";
 import SignInSignUpPage from "./components/pages/SignInSignUpPage/SignInSignUpPage.component";
+import CheckoutPage from "./components/pages/CheckoutPage/CheckoutPage.component";
 
 // Import: Firebase Authentication
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
@@ -53,6 +54,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={ShopPage} />
+          <Route exact path="/checkout" component={CheckoutPage} />
           <Route
             exact
             path="/sign-in"
