@@ -14,6 +14,7 @@ import {
 
 // Import: Components
 import CheckoutItem from "../../UI/CheckoutItem/CheckoutItem.component";
+import StripeCheckoutButton from "../../UI/StripeCheckoutButton/StripeCheckoutButton.component";
 
 // Page: CheckoutPage
 function CheckoutPage({ cartItems, total }) {
@@ -44,6 +45,11 @@ function CheckoutPage({ cartItems, total }) {
       <div className="CheckoutPage__total">
         <span>TOTAL: £{total}</span>
       </div>
+      <div className="CheckoutPage__test-warning">
+        <p>*Please use the following test credit card for payments:*</p>
+        <p>4242 4242 4242 4242 - Expiry: 01/20 - CVV: 123</p>
+      </div>
+      <StripeCheckoutButton price={total} />
     </div>
   );
 }
