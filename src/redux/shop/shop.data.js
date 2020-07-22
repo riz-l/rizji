@@ -1,6 +1,6 @@
 // Data: SHOP_DATA
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  keyboards: {
     id: 1,
     title: "Keyboards",
     routeName: "keyboards",
@@ -42,17 +42,17 @@ const SHOP_DATA = [
       },
       {
         id: 6,
-        name: "Ducky One 2 Mini (Black)",
+        name: "Akko 9009 Full Size",
         imageUrl:
-          "https://mechanicalkeyboards.com/shop/images/products/large_4322_large_DKON1861ST-USPDAZT1_8.png",
-        price: 99.99,
+          "https://massdrop-s3.imgix.net/product-images/akko-9009-mechanical-keyboard/FP/UwcSy5PwRyZlGMopCsqA_PC.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 87,
       },
       {
         id: 7,
-        name: "Drop ALT",
+        name: "Topre Realforce R2",
         imageUrl:
-          "https://massdrop-s3.imgix.net/product-images/drop-alt-mechanical-keyboard/FP/IOePDwseQQiouv9ZFs74_0885.jpg?auto=format&fm=jpg&fit=fill&w=670&h=375&bg=f0f0f0&dpr=2&q=35",
-        price: 180,
+          "https://massdrop-s3.imgix.net/product-images/topre-realforce-tkl-r2/FP/nqwF8u9rSDq7zQDFwjoG_pc.png?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 100,
       },
       {
         id: 8,
@@ -70,7 +70,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  artisans: {
     id: 2,
     title: "Artisans",
     routeName: "artisans",
@@ -133,7 +133,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  cables: {
     id: 3,
     title: "Cables",
     routeName: "cables",
@@ -175,7 +175,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  keycaps: {
     id: 4,
     title: "Keycaps",
     routeName: "keycaps",
@@ -231,7 +231,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  switches: {
     id: 5,
     title: "Switches",
     routeName: "switches",
@@ -273,14 +273,42 @@ const SHOP_DATA = [
       },
       {
         id: 35,
-        name: "Everglide Oreo",
+        name: "Zeal PC Sakurios",
         imageUrl:
-          "https://massdrop-s3.imgix.net/product-images/everglide-oreo-mechanical-switches/FP/OlvqlAMsQSeJ4AfyWB4d_1080x1080_MD-91671_01.png?auto=format&fm=jpg&fit=fill&w=670&h=375&bg=f0f0f0&dpr=2&q=35",
+          "https://massdrop-s3.imgix.net/product-images/zeal-pc-roselios-sakurios-silent-linear-switches/FP/6qA4R8DCTL2XE6L3LQqp_1500x1000_MD-91722_04.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 8,
+      },
+      {
+        id: 36,
+        name: "Kebo Arctos",
+        imageUrl:
+          "https://massdrop-s3.imgix.net/product-images/kebo-arctos-switches/FP/q2SMmeBoQ0yxc8lO4E1o_0932-copy-pc.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 5,
+      },
+      {
+        id: 37,
+        name: "Kaihua Kailh Box Brown",
+        imageUrl:
+          "https://massdrop-s3.imgix.net/product-images/kaihua-box-switches/AI7B9511%20copy%20checkout%20_20170503105821.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
         price: 6,
+      },
+      {
+        id: 38,
+        name: "Zeal PC Aqua Zilents",
+        imageUrl:
+          "https://massdrop-s3.imgix.net/product-images/zeal-pc-roselios-sakurios-silent-linear-switches/FP/WOxK5R0nRBCFQpajstWM_1500x1000_MD-91722_13.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 8,
+      },
+      {
+        id: 39,
+        name: "Zeal PC Rosélios",
+        imageUrl:
+          "https://massdrop-s3.imgix.net/product-images/zeal-pc-roselios-sakurios-silent-linear-switches/FP/hCnE5jKYRImDKBY3cOV4_1500x1000_MD-91722_11.jpg?auto=format&fm=jpg&fit=fill&w=820&h=547&bg=f0f0f0&dpr=1&q=70",
+        price: 8,
       },
     ],
   },
-];
+};
 
 // Export: SHOP_DATA
 export default SHOP_DATA;

@@ -1,0 +1,21 @@
+/*#region Page: CollectionPage */
+.CollectionPage {
+  display: flex;
+  flex-direction: column;
+
+  .CollectionPage__title {
+    font-size: 38px;
+    margin: 0 auto 30px;
+  }
+
+  .CollectionPage__items {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+
+    & .CollectionItem {
+      margin-bottom: 30px;
+    }
+  }
+}
+/*#endregion /Page: CollectionPage */
