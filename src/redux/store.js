@@ -7,7 +7,12 @@ import { persistStore } from "redux-persist";
 import rootReducer from "./root-reducer";
 
 // Middlewares: logger
-const middlewares = [logger];
+const middlewares = [];
+
+// If the Node Environment is set to development (instead of test or production), display the logger
+if (process.env.NODE_ENV === "development") {
+  middlewares.push(logger);
+}
 
 // Store
 export const store = createStore(rootReducer, applyMiddleware(...middlewares));
