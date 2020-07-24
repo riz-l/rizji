@@ -1,18 +1,16 @@
 // Import: Dependencies
 import React from "react";
 
-// Import: Styling
-import "./HomePage.styles.scss";
-
 // Import: Components
 import Directory from "../../UI/Directory/Directory.component";
+import { HomePageContainer } from "./HomePage.styles";
 
 // Page: HomePage
 function HomePage() {
   return (
-    <div className="HomePage">
+    <HomePageContainer>
       <Directory />
-    </div>
+    </HomePageContainer>
   );
 }
 
